@@ -20,7 +20,7 @@
     margin-left: 230px;
     margin-right: 230px;
     margin-top: 50px;
-    border: #0000ff;
+    border: #003399;
 }
 .button {
     font: bold 11px Arial;
@@ -36,14 +36,14 @@
   }
   .text-box h2
   {
-      color: #0000ff;
+      color: #003399;
   }
 h1
 {
 margin-top: 0px;
-color: #0000ff;
-font-family: Trebuchet MS;
-border-bottom: 3px solid #0000ff;
+color: #003399;
+font-family: Mulish, sans-serif;
+border-bottom: 3px solid #ffcc00;
 font-size: 3em;
 box-shadow: 8px 8px 9px #88888888;
 }
@@ -63,6 +63,7 @@ img:hover
 }
 .text-box
 {
+    color: #003399;
     margin-top: 5%;
     font-size: 17px;
     letter-spacing: 1px;
@@ -70,48 +71,77 @@ img:hover
 }
 .text-box h2
 {
-    font-family: trebuchet MS;
+    color: #003399;
+    font-family: Mulish, sans-serif;
     font-size: 60px;
     /* line-height: 10px; */
     text-align: center;
 }
 .text-box a
 {
-    font-family: trebuchet MS;
-    font-size: 20px;
+    font-family: Mulish, sans-serif;
+    font-size: 30px;
     margin-top: 30px;
     /* display: inline-block; */
-    border-radius: 25px;
-    color: #0000ff;
-    padding: 5px 20px;
+    color: #003399;
+    padding: 5px 50px;
     text-decoration: none;
 }
-
 .text-box .btn {
-    background: #3366ff;
-    color: white;
-    margin-left: 30px;
-    font-weight: 30;
+    background: #ffcc00;
+    color: #003399;
+    margin-left: 5px;
+    font-weight: 50;
     height: 50px;
     width: 170px;
-    text-align: center;
+    text-align: justify;
     display: flex;
     margin: auto;
 }
 .auto-input
 {
-    color: red;
+    color: #ffcc00;
     font-size: 50px;
 }
 .col-4 h2
 {
-    font-family: trebuchet MS;
+    color: #003399;
+    font-family: Mulish, sans-serif;
     font-size: 40px;
     text-align: center;
 }
 .col-4 p
 {
-    font-family: trebuchet MS;
+    color: #003399;
+    font-family: Mulish, sans-serif;
     font-size: 20px;
     text-align: center;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+}
+nav ul
+{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+}
+nav ul li a
+{
+    color: #003399;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
 }
