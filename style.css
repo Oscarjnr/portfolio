@@ -19,7 +19,7 @@
 {
     margin-left: 230px;
     margin-right: 230px;
-    margin-top: 50px;
+    margin-top: 230px;
     border: #003399;
 }
 .button {
@@ -36,16 +36,17 @@
   }
   .text-box h2
   {
+      font-family: Courier;
       color: #003399;
   }
 h1
 {
-margin-top: 0px;
+margin-top: auto;
 color: #003399;
 font-family: Mulish, sans-serif;
 border-bottom: 3px solid #ffcc00;
 font-size: 3em;
-box-shadow: 8px 8px 9px #88888888;
+box-shadow: 7px 3px 2px #88888888;
 }
 img
 {
@@ -63,30 +64,41 @@ img:hover
 }
 .text-box
 {
+    /*background-color: #0872b4;*/
     color: #003399;
-    margin-top: 5%;
+    margin: 50px;
+    /*margin-top: 5%;*/
     font-size: 17px;
     letter-spacing: 1px;
     /* line-height: 26; */
 }
 .text-box h2
 {
-    color: #003399;
+    margin-top: auto;
+    color: #0872b4;
     font-family: Mulish, sans-serif;
     font-size: 60px;
     /* line-height: 10px; */
     text-align: center;
 }
-.text-box a
+.text-box h3
+{
+    color: #0872b4;
+    font-family: Courier;
+    font-size: 60px;
+    /* line-height: 10px; */
+    text-align: center;
+}
+/*.text-box a
 {
     font-family: Mulish, sans-serif;
     font-size: 30px;
     margin-top: 30px;
-    /* display: inline-block; */
+    /* display: inline-block;
     color: #003399;
     padding: 5px 50px;
-    text-decoration: none;
-}
+    text-decoration: none;*/
+/* } */
 .text-box .btn {
     background: #ffcc00;
     color: #003399;
@@ -100,14 +112,22 @@ img:hover
 }
 .auto-input
 {
+    font-family: Courier;
     color: #ffcc00;
     font-size: 50px;
 }
 .col-4 h2
 {
-    color: #003399;
+    color: black;
     font-family: Mulish, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.col-4 h3
+{
+    color: black;
+    font-family: Mulish, sans-serif;
+    font-size: 25px;
     text-align: center;
 }
 .col-4 p
@@ -135,7 +155,7 @@ nav ul li
 {
     display: inline-block;
     list-style: none;
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 nav ul li a
 {
@@ -145,3 +165,54 @@ nav ul li a
     font-family: Mulish, sans-serif;
     font-size: 17px;
 }
+.info{  
+    width: 80%;
+    margin: 50px auto;
+}
+.info h2{
+    font-family: mulish;
+    font-size: 2.2em;
+    margin: 20px 0;
+}
+
+.info-box{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.holder{
+    width: 30%;
+    height: 120%;
+    background-size: cover;
+    background-position: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.holder p
+{
+    font-size: 25px;
+    font-family: Mulish;
+}
+.link a
+{
+        color: white;
+        background-color: #0872b4;
+        padding: 15px 25px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: Mulish, sans-serif;
+        font-size: 20px;
+}
+.container2
+{
+    background-color: #ffcc00;
+}
+.social
+{
+    font-size: 1em;
+    color: #0872b4;
+}
+
